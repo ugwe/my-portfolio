@@ -48,7 +48,7 @@ const experience = {
 const education = {
   title: "My education",
   description:
-    "I am currently a Senior at Swarthmore College studying pursuing degrees in Computer Science and Mathematics",
+    "I am currently a Senior at Swarthmore College pursuing degrees in Computer Science and Mathematics",
   items: [
     {
       institution: "Swarthmore College",
