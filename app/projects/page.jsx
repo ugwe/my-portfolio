@@ -40,7 +40,7 @@ const projects = [
       "SwatMaps is an intuitive web app built to aid Swarthmore college community members - students, faculty & staff, and college visitors in navigating the campus using an interactive map",
     stack: [{ name: "Javascript" }, { name: "Python" }, { name: "HTML & CSS" }],
     image: "/assets/work/Swatmaps_img.png",
-    live: "mugwe1.pythonanywhere.com/",
+    live: "https://mugwe1.pythonanywhere.com/",
     github: "https://github.com/ugwe/SwatMaps",
   },
   {
