@@ -27,7 +27,7 @@ const Home = () => {
     color: '#fff',
     padding: '8px 12px',
     borderRadius: '8px',
-    transform: 'translate(-50%, 20px)',
+    transform: 'translate(-50%, 40px)',
     whiteSpace: 'nowrap',
     zIndex: 1000,
     fontSize: '14px',
@@ -51,7 +51,7 @@ const Home = () => {
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <h1 className="h1 mb-10 text-8xl">
+            <h1 className="h1 mb-10 text-6xl">
               Hey, I am <br/> 
               <TypeAnimation sequence ={[
                 
@@ -88,7 +88,7 @@ const Home = () => {
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"
-                  iconStyles="w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:text-white hover:transition-all duration-500"
+                  iconStyles="w-9 h-9 border border-accent rounded-full flex justify-center items-center text-white text-base hover:bg-accent hover:text-primary hover:text-white hover:transition-all duration-500"
                 />
               </div>
             </div>

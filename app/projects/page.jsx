@@ -109,8 +109,8 @@ const Projects = () => {
                 <Link href={project.live}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsArrowUpRight className="text-white text-3xl group-hover:text-accent" />
+                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/30 hover:bg-accent/40 flex justify-center items-center group">
+                        <BsArrowUpRight className="text-black text-3xl group-hover:text-white hover:font-bold" />
                       </TooltipTrigger>
                       <TooltipContent>
                         <p>Live project</p>
@@ -122,8 +122,8 @@ const Projects = () => {
                 <Link href={project.github}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsGithub className="text-white text-3xl group-hover:text-accent" />
+                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/30 hover:bg-accent/40 flex justify-center items-center group">
+                        <BsGithub className="text-black text-3xl group-hover:text-white hover:font-bold" />
                       </TooltipTrigger>
                       <TooltipContent>
                         <p>Github repository</p>
