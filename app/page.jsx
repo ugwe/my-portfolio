@@ -67,7 +67,7 @@ const Home = () => {
                 1000
               ]}
                 wrapper="span"
-                speed={60}
+                speed={20}
                 repeat={Infinity}
                 className="text-accent block mt-10"
               />
