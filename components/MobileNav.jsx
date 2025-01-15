@@ -63,7 +63,7 @@ const MobileNav = () => {
                 key={index}
                 className={`${
                   link.path === pathname &&
-                  "text-black font-bold bg-white border px-20 py-0.5 border-accent"
+                  "text-black font-bold bg-white border px-40 py-0.5 border-accent"
                 } capitalize font-medium hover:text-accent transition-all rounded-md px-3 py-1 text-center`}
                 onClick={handleLinkClick}
               >
