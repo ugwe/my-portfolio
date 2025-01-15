@@ -1,17 +1,54 @@
 /** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-  ],
-  theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
-  },
-  plugins: [],
-};
+module.exports = {
+	darkMode: ["class"],
+	content: [
+	  "./pages/**/*.{js,jsx}",
+	  "./components/**/*.{js,jsx}",
+	  "./app/**/*.{js,jsx}",
+	  "./src/**/*.{js,jsx}",
+	],
+	prefix: "",
+	theme: {
+	  container: {
+		center: true,
+		padding: "15px",
+	  },
+	  screens: {
+		sm: "640px",
+		md: "768px",
+		lg: "960px",
+		xl: "1200px",
+	  },
+	  fontFamily: {
+		primary: "var(--font-Montserrat)",
+	  },
+	  extend: {
+		colors: {
+		  primary: "#000000",
+		  accent: {
+			DEFAULT: "#964B00",
+			hover: "#964B00",
+		  },
+		},
+  
+		keyframes: {
+		  "accordion-down": {
+			from: { height: "0" },
+			to: { height: "var(--radix-accordion-content-height)" },
+		  },
+		  "accordion-up": {
+			from: { height: "var(--radix-accordion-content-height)" },
+			to: { height: "0" },
+		  },
+		},
+		animation: {
+		  "accordion-down": "accordion-down 0.2s ease-out",
+		  "accordion-up": "accordion-up 0.2s ease-out",
+		},
+		transitionDuration: {
+			'2000': '2000ms',
+		  },
+	  },
+	},
+	plugins: [require("tailwindcss-animate")],
+  };
